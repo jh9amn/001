@@ -64,3 +64,66 @@
                             │
                             ▼
                          RAG
+
+
+
+## Contributor
+     │
+     ▼
+Sign in with GitHub
+     │
+     ▼
+Submit Article / Resource
+     │
+     ▼
+Draft
+     │
+     ▼
+Your Admin Dashboard
+     │
+     ├── Approve ───────► Published
+     │
+     ├── Request Changes
+     │
+     └── Reject
+
+
+       ┌──────────────────┐
+  │   Your Website   │
+  └────────┬─────────┘
+           │
+           ▼
+  ┌──────────────────┐
+  │    Contribute    │
+  └────────┬─────────┘
+           │
+           ▼
+  ┌──────────────────┐
+  │ Login with GitHub│
+  └────────┬─────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Contribution Form   │
+└─────────┬───────────┘
+          │
+┌─────────────┼─────────────┐
+▼             ▼             ▼
+GitHub Repo   Markdown      Project URL
+│             │             │
+└─────────────┼─────────────┘
+          ▼
+  ┌──────────────────┐
+  │ Preview / Parser │
+  └────────┬─────────┘
+           ▼
+  ┌──────────────────┐
+  │ Pending Review   │
+  └────────┬─────────┘
+           │
+  ┌────────┴────────┐
+  ▼                 ▼
+APPROVE            REJECT
+  │
+  ▼
+/projects/xyz
